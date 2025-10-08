@@ -1,3 +1,10 @@
+# TODO
+
+- Get Docker https://docs.docker.com/desktop/setup/install/mac-install/
+- unset RUSTUP_TOOLCHAIN
+- arcium build
+- arcium test
+
 # Anonymous Voting with Arcium
 
 This project demonstrates how to implement truly anonymous voting on Solana using Arcium's confidential computing capabilities. It showcases how to create private polls where individual votes remain confidential while still allowing for verifiable results.
