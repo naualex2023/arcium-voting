@@ -1,3 +1,10 @@
+// Stops Rust Analyzer complaining about missing configs
+// See https://solana.stackexchange.com/questions/17777
+#![allow(unexpected_cfgs)]
+// Fix warning: use of deprecated method `anchor_lang::prelude::AccountInfo::<'a>::realloc`: Use AccountInfo::resize() instead
+// See https://solana.stackexchange.com/questions/22979
+#![allow(deprecated)]
+
 use anchor_lang::prelude::*;
 use arcium_anchor::prelude::*;
 use arcium_client::idl::arcium::types::CallbackAccount;
